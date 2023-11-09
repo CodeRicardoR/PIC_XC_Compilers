@@ -1,0 +1,189 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F258 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"67 C:\Users\ricar\Documents\XC8_Compiler\18F\TestLEDs.X\TestLEDs.c
+[v _Interrups Interrups `IIH(v  1 e 1 0 ]
+"78
+[v _main main `(v  1 e 1 0 ]
+[s S111 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+]
+"10291 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f258.h
+[s S119 . 1 `uc 1 AN0 1 0 :1:0 
+`uc 1 AN1 1 0 :1:1 
+`uc 1 AN2 1 0 :1:2 
+`uc 1 AN3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 AN4 1 0 :1:5 
+`uc 1 OSC2 1 0 :1:6 
+]
+[s S127 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_SS 1 0 :1:5 
+]
+[s S130 . 1 `uc 1 CVREF 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 VREFM 1 0 :1:2 
+`uc 1 VREFP 1 0 :1:3 
+`uc 1 T0CKI 1 0 :1:4 
+`uc 1 nSS 1 0 :1:5 
+`uc 1 CLKO 1 0 :1:6 
+]
+[s S138 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SS 1 0 :1:5 
+]
+[s S141 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LVDIN 1 0 :1:5 
+]
+[s S144 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+]
+[u S146 . 1 `S111 1 . 1 0 `S119 1 . 1 0 `S127 1 . 1 0 `S130 1 . 1 0 `S138 1 . 1 0 `S141 1 . 1 0 `S144 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES146  1 e 1 @3968 ]
+"10698
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+[s S75 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+]
+"10723
+[s S83 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 LA3 1 0 :1:3 
+`uc 1 LA4 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+`uc 1 LA6 1 0 :1:6 
+]
+[u S91 . 1 `S75 1 . 1 0 `S83 1 . 1 0 ]
+[v _LATAbits LATAbits `VES91  1 e 1 @3977 ]
+"11022
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+[s S190 . 1 `uc 1 PCFG 1 0 :4:0 
+`uc 1 . 1 0 :2:4 
+`uc 1 ADCS2 1 0 :1:6 
+`uc 1 ADFM 1 0 :1:7 
+]
+"13195
+[s S195 . 1 `uc 1 PCFG0 1 0 :1:0 
+`uc 1 PCFG1 1 0 :1:1 
+`uc 1 PCFG2 1 0 :1:2 
+`uc 1 PCFG3 1 0 :1:3 
+]
+[s S200 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+]
+[u S203 . 1 `S190 1 . 1 0 `S195 1 . 1 0 `S200 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES203  1 e 1 @4033 ]
+[s S224 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"14169
+[s S226 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S229 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S232 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S235 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S238 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S246 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_IPEN 1 0 :1:7 
+]
+[s S249 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 nIPEN 1 0 :1:7 
+]
+[u S257 . 1 `S224 1 . 1 0 `S226 1 . 1 0 `S229 1 . 1 0 `S232 1 . 1 0 `S235 1 . 1 0 `S238 1 . 1 0 `S246 1 . 1 0 `S249 1 . 1 0 ]
+[v _RCONbits RCONbits `VES257  1 e 1 @4048 ]
+"14377
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+"14454
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"14461
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
+"14895
+[v _INTCON INTCON `VEuc  1 e 1 @4082 ]
+[s S24 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"14932
+[s S33 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S42 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S46 . 1 `S24 1 . 1 0 `S33 1 . 1 0 `S42 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES46  1 e 1 @4082 ]
+"78 C:\Users\ricar\Documents\XC8_Compiler\18F\TestLEDs.X\TestLEDs.c
+[v _main main `(v  1 e 1 0 ]
+{
+"103
+} 0
+"67
+[v _Interrups Interrups `IIH(v  1 e 1 0 ]
+{
+"77
+} 0

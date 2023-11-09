@@ -1,0 +1,140 @@
+/*
+ * File:   Digitizer12bitsV0.c
+ * Author: ricar
+ *
+ * Created on 12 de abril de 2022, 07:13 PM
+ */
+
+
+#include "main.h"
+
+
+void __attribute__((__interrupt__,no_auto_psv)) _U1RXInterrupt(void){
+    char ID;
+    
+    if((IEC0bits.U1RXIE == 1)&&(IFS0bits.U1RXIF == 1)){
+        IFS0bits.U1RXIF = 0;            //Clear Flag U1RX
+        
+        ID = ReceiveCMD_UART1();
+        switch(ID){
+            case '5':
+                TransmitCMD_UART1('5');
+                break;
+            case '0':
+                TransmitCMD_UART1('0');
+                break;
+            case '1':
+                TransmitCMD_UART1('1');
+                //---------------------
+                //Latitude GPS
+                CmdGPS = 1;
+                Enable_InterruptUART2();
+                //---------------------
+                break;
+            case '2':
+                TransmitCMD_UART1('2');
+                //---------------------
+                //Longitude GPS
+                CmdGPS = 2;
+                Enable_InterruptUART2();
+                //---------------------
+                break;
+            case '3':
+                TransmitCMD_UART1('3');
+                break;
+            case '4':
+                TransmitCMD_UART1('4');
+                break;
+            case '6':
+                TransmitCMD_UART1('6');
+                break;
+            case '7':
+                TransmitCMD_UART1('7');
+                break;
+            case '8':
+                TransmitCMD_UART1('8');
+                //---------------------
+                //Sync GPS
+                CmdGPS = 3;
+                Enable_InterruptUART2();
+                //---------------------
+                break;
+            case '9':
+                TransmitCMD_UART1('9');
+                break;
+            default:
+                TransmitCMD_UART1('X');
+                //Enable continuous reception.
+        }
+    }
+    return;
+}
+
+void __attribute__((__interrupt__,no_auto_psv)) _U2RXInterrupt(void){
+    
+    LATBbits.LATB9 = 1;
+    if((IEC1bits.U2RXIE == 1)&&(IFS1bits.U2RXIF==1)){
+        Disable_InterruptUART2();
+        switch(CmdGPS){
+            case 0:
+                Nop();
+                break;
+            case 1:
+                GPS_LATITUDE();
+                TransmitDAT_USART('1');
+                break;
+            case 2:
+                GPS_LONGITUDE();
+                TransmitDAT_USART('2');
+                break;
+            case 3:
+                GPS_STATUS();
+                if(RxBuffer=='A'){
+                    TransmitDAT_USART('8');
+                }else{
+                    TransmitDAT_USART('0');
+                }
+                break;
+            default:
+                Nop();
+        }
+    }
+    __delay_ms(50);
+    LATBbits.LATB9 = 0;
+    return;
+}
+
+
+
+
+int main(void){
+    //Setting PORTB
+    ADPCFG = 0x1FFF;        //All pins are digital
+    TRISBbits.TRISB9 = 0;
+    TRISBbits.TRISB10 = 0;
+    TRISBbits.TRISB11 = 0;
+    LATBbits.LATB9 = 0;
+    LATBbits.LATB10 = 0;
+    LATBbits.LATB11 = 0;
+    
+    //Setting UART2
+    UART2_Open();
+    UART2_Config();
+    
+    //Setting UART1
+    UART1_Open();
+    UART1_Config();
+    
+    //Enablin UART1 interrupt
+    IPC2bits.U1RXIP = 7;        //Level 4 (of 7)) level priority
+    IFS0bits.U1RXIF = 0;        //Clear Flag U1RX
+    IEC0bits.U1RXIE = 1;        //Enabled Interrupt Rx from UART1
+    
+    //Init Variables
+    CmdGPS = 0;
+    
+    while(1);
+    UART1_Close();
+    UART2_Close();
+    return 0;
+}

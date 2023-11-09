@@ -1,0 +1,40 @@
+//---------------------------------------------------------------
+//---------------------------------------------------------------
+//Function to Read ADC after conversion
+unsigned short ReadDataADC(void){
+    unsigned char i;
+    unsigned short DataADC;
+    
+    PIN_CS = 1;
+    PIN_RC = 1;
+    PIN_CLK = 0;
+    __delay_us(25);     //wait to ADC
+    //Start Samplig and hold:
+    PIN_RC = 0;
+    PIN_CS = 0;
+    while(PIN_READY);
+    PIN_CS = 1;
+    PIN_RC = 1;
+    while(!PIN_READY);
+    PIN_CS = 0;
+    PIN_CLK = 1;
+    PIN_CLK = 0;        //For sync pulse
+    PIN_CLK = 1;        //For first bit
+    
+    DataADC = 0;
+    for (i = 0;i < 15; i++){
+        PIN_CLK = 0;
+        if (PIN_SDI == 1){
+            DataADC = DataADC | 0x0001;
+        }
+        PIN_CLK = 1;
+        DataADC <<= 1;
+    }
+    PIN_CLK = 0;
+    if (PIN_SDI == 1){
+        DataADC = DataADC | 0x0001;
+    }
+    //-----------
+    PIN_CS = 1;
+    return DataADC;
+}

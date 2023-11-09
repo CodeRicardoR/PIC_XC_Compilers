@@ -1,0 +1,1743 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[t ~ __interrupt . k ]
+[t T1 __interrupt ]
+"367 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 367:     struct {
+[s S14 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S14 . RBIF INTF TMR0IF RBIE INTE TMR0IE PEIE GIE ]
+"377
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 377:     struct {
+[s S15 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S15 . . T0IF . T0IE ]
+"366
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 366: typedef union {
+[u S13 `S14 1 `S15 1 ]
+[n S13 . . . ]
+"384
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 384: extern volatile INTCONbits_t INTCONbits __attribute__((address(0x00B)));
+[v _INTCONbits `VS13 ~T0 @X0 0 e@11 ]
+"173
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 173:     struct {
+[s S6 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S6 . RA0 RA1 RA2 RA3 RA4 RA5 ]
+"172
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 172: typedef union {
+[u S5 `S6 1 ]
+[n S5 . . ]
+"182
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 182: extern volatile PORTAbits_t PORTAbits __attribute__((address(0x005)));
+[v _PORTAbits `VS5 ~T0 @X0 0 e@5 ]
+"549
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 549: extern volatile unsigned char TMR1H __attribute__((address(0x00F)));
+[v _TMR1H `Vuc ~T0 @X0 0 e@15 ]
+"542
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 542: extern volatile unsigned char TMR1L __attribute__((address(0x00E)));
+[v _TMR1L `Vuc ~T0 @X0 0 e@14 ]
+"556
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 556: extern volatile unsigned char T1CON __attribute__((address(0x010)));
+[v _T1CON `Vuc ~T0 @X0 0 e@16 ]
+"445
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 445:     struct {
+[s S17 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S17 . TMR1IF TMR2IF CCP1IF SSPIF TXIF RCIF ADIF ]
+"444
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 444: typedef union {
+[u S16 `S17 1 ]
+[n S16 . . ]
+"455
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 455: extern volatile PIR1bits_t PIR1bits __attribute__((address(0x00C)));
+[v _PIR1bits `VS16 ~T0 @X0 0 e@12 ]
+"1406
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 1406:     struct {
+[s S56 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S56 . TMR1IE TMR2IE CCP1IE SSPIE TXIE RCIE ADIE ]
+"1405
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 1405: typedef union {
+[u S55 `S56 1 ]
+[n S55 . . ]
+"1416
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 1416: extern volatile PIE1bits_t PIE1bits __attribute__((address(0x08C)));
+[v _PIE1bits `VS55 ~T0 @X0 0 e@140 ]
+"223
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 223:     struct {
+[s S8 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S8 . RB0 RB1 RB2 RB3 RB4 RB5 RB6 RB7 ]
+"222
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 222: typedef union {
+[u S7 `S8 1 ]
+[n S7 . . ]
+"234
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 234: extern volatile PORTBbits_t PORTBbits __attribute__((address(0x006)));
+[v _PORTBbits `VS7 ~T0 @X0 0 e@6 ]
+"20 ./LIB16F_GPS38400.h
+[; ;./LIB16F_GPS38400.h: 20: void GPS_TIMEDATE(void);
+[v _GPS_TIMEDATE `(v ~T0 @X0 0 ef ]
+"20 ./LIB16F_USART.h
+[; ;./LIB16F_USART.h: 20: void print_string(char *str);
+[v _print_string `(v ~T0 @X0 0 ef1`*uc ]
+"27 ./LIB16F_SPI.h
+[; ;./LIB16F_SPI.h: 27: void CleanHolding(void);
+[v _CleanHolding `(v ~T0 @X0 0 ef ]
+"217 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 217: extern volatile unsigned char PORTB __attribute__((address(0x006)));
+[v _PORTB `Vuc ~T0 @X0 0 e@6 ]
+[v F36 `(v ~T0 @X0 1 tf1`ul ]
+"12 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\builtins.h
+[v __delay `JF36 ~T0 @X0 0 e ]
+[p i __delay ]
+"26 ./LIB16F_SPI.h
+[; ;./LIB16F_SPI.h: 26: signed long ReadAD24(unsigned char flag_convert, unsigned char cmd_convert);
+[v _ReadAD24 `(l ~T0 @X0 0 ef2`uc`uc ]
+"19 ./LIB16F_USART.h
+[; ;./LIB16F_USART.h: 19: void WriteByte_USART(unsigned char byte);
+[v _WriteByte_USART `(v ~T0 @X0 0 ef1`uc ]
+"25
+[; ;./LIB16F_USART.h: 25: void print_value(signed long value);
+[v _print_value `(v ~T0 @X0 0 ef1`l ]
+"18 ./LIB16F_GPS38400.h
+[; ;./LIB16F_GPS38400.h: 18: void GPS_LATITUDE(void);
+[v _GPS_LATITUDE `(v ~T0 @X0 0 ef ]
+"24 ./LIB16F_USART.h
+[; ;./LIB16F_USART.h: 24: void TransmitDAT_USART(unsigned char DAT_ID);
+[v _TransmitDAT_USART `(v ~T0 @X0 0 ef1`uc ]
+"19 ./LIB16F_GPS38400.h
+[; ;./LIB16F_GPS38400.h: 19: void GPS_LONGITUDE(void);
+[v _GPS_LONGITUDE `(v ~T0 @X0 0 ef ]
+"17
+[; ;./LIB16F_GPS38400.h: 17: void GPS_STATUS(void);
+[v _GPS_STATUS `(v ~T0 @X0 0 ef ]
+"8 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\builtins.h
+[v ___nop `(v ~T0 @X0 0 ef ]
+[p i ___nop ]
+"21 ./LIB16F_USART.h
+[; ;./LIB16F_USART.h: 21: unsigned char ReceiveCMD_USART(void);
+[v _ReceiveCMD_USART `(uc ~T0 @X0 0 ef ]
+"23
+[; ;./LIB16F_USART.h: 23: void TransmitCMD_USART(unsigned char CMD_ID);
+[v _TransmitCMD_USART `(v ~T0 @X0 0 ef1`uc ]
+"1162 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 1162:     struct {
+[s S47 :3 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S47 . PS PSA T0SE T0CS INTEDG nRBPU ]
+"1170
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 1170:     struct {
+[s S48 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S48 . PS0 PS1 PS2 ]
+"1161
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 1161: typedef union {
+[u S46 `S47 1 `S48 1 ]
+[n S46 . . . ]
+"1176
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 1176: extern volatile OPTION_REGbits_t OPTION_REGbits __attribute__((address(0x081)));
+[v _OPTION_REGbits `VS46 ~T0 @X0 0 e@129 ]
+"22 ./LIB16F_SPI.h
+[; ;./LIB16F_SPI.h: 22: unsigned char ResetCS5532(void);
+[v _ResetCS5532 `(uc ~T0 @X0 0 ef ]
+"23
+[; ;./LIB16F_SPI.h: 23: void InitCS5532(void);
+[v _InitCS5532 `(v ~T0 @X0 0 ef ]
+"24
+[; ;./LIB16F_SPI.h: 24: void ReadRegister_4bytesCS5532(unsigned char command);
+[v _ReadRegister_4bytesCS5532 `(v ~T0 @X0 0 ef1`uc ]
+"21
+[; ;./LIB16F_SPI.h: 21: unsigned char TransferByte_SPI(unsigned char data);
+[v _TransferByte_SPI `(uc ~T0 @X0 0 ef1`uc ]
+"871 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 871:     struct {
+[s S34 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S34 . RX9D OERR FERR ADDEN CREN SREN RX9 SPEN ]
+"881
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 881:     struct {
+[s S35 :1 `uc 1 :5 `uc 1 :1 `uc 1 ]
+[n S35 . RCD8 . RC9 ]
+"886
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 886:     struct {
+[s S36 :6 `uc 1 :1 `uc 1 ]
+[n S36 . . nRC8 ]
+"890
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 890:     struct {
+[s S37 :6 `uc 1 :1 `uc 1 ]
+[n S37 . . RC8_9 ]
+"870
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 870: typedef union {
+[u S33 `S34 1 `S35 1 `S36 1 `S37 1 ]
+[n S33 . . . . . ]
+"895
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 895: extern volatile RCSTAbits_t RCSTAbits __attribute__((address(0x018)));
+[v _RCSTAbits `VS33 ~T0 @X0 0 e@24 ]
+[p mainexit ]
+"2005
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 2005: extern volatile unsigned char ADCON1 __attribute__((address(0x09F)));
+[v _ADCON1 `Vuc ~T0 @X0 0 e@159 ]
+"167
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 167: extern volatile unsigned char PORTA __attribute__((address(0x005)));
+[v _PORTA `Vuc ~T0 @X0 0 e@5 ]
+"279
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 279: extern volatile unsigned char PORTC __attribute__((address(0x007)));
+[v _PORTC `Vuc ~T0 @X0 0 e@7 ]
+"1226
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 1226: extern volatile unsigned char TRISA __attribute__((address(0x085)));
+[v _TRISA `Vuc ~T0 @X0 0 e@133 ]
+"1276
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 1276: extern volatile unsigned char TRISB __attribute__((address(0x086)));
+[v _TRISB `Vuc ~T0 @X0 0 e@134 ]
+"1338
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 1338: extern volatile unsigned char TRISC __attribute__((address(0x087)));
+[v _TRISC `Vuc ~T0 @X0 0 e@135 ]
+"18 ./LIB16F_SPI.h
+[; ;./LIB16F_SPI.h: 18: void ConfigPort_SPI(void);
+[v _ConfigPort_SPI `(v ~T0 @X0 0 ef ]
+"19
+[; ;./LIB16F_SPI.h: 19: void OpenPort_SPI(void);
+[v _OpenPort_SPI `(v ~T0 @X0 0 ef ]
+"15 ./LIB16F_USART.h
+[; ;./LIB16F_USART.h: 15: void ConfigPort_USART(void);
+[v _ConfigPort_USART `(v ~T0 @X0 0 ef ]
+"16
+[; ;./LIB16F_USART.h: 16: void OpenPort_USART(void);
+[v _OpenPort_USART `(v ~T0 @X0 0 ef ]
+"17
+[; ;./LIB16F_USART.h: 17: void ClosePort_USART(void);
+[v _ClosePort_USART `(v ~T0 @X0 0 ef ]
+"20 ./LIB16F_SPI.h
+[; ;./LIB16F_SPI.h: 20: void ClosePort_SPI(void);
+[v _ClosePort_SPI `(v ~T0 @X0 0 ef ]
+"55 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 55: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"62
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 62: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"69
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 69: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"76
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 76: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"162
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 162: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"169
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 169: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"219
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 219: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"281
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 281: __asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+"343
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 343: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"363
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 363: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"441
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 441: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"497
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 497: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"537
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 537: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"544
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 544: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"551
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 551: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"558
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 558: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"633
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 633: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"640
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 640: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"711
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 711: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"718
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 718: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"788
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 788: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"795
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 795: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"802
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 802: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"809
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 809: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"867
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 867: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"962
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 962: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"969
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 969: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"976
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 976: __asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+"983
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 983: __asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+"990
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 990: __asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+"997
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 997: __asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+"1055
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 1055: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1062
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 1062: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1158
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 1158: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1228
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 1228: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1278
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 1278: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1340
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 1340: __asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+"1402
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 1402: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1458
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 1458: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1498
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 1498: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1532
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 1532: __asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+"1594
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 1594: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"1601
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 1601: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"1608
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 1608: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"1777
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 1777: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"1858
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 1858: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"1865
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 1865: __asm("CMCON equ 09Ch");
+[; <" CMCON equ 09Ch ;# ">
+"1935
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 1935: __asm("CVRCON equ 09Dh");
+[; <" CVRCON equ 09Dh ;# ">
+"2000
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 2000: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2007
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 2007: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"2066
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 2066: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"2073
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 2073: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"2080
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 2080: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"2087
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 2087: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"2094
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 2094: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"2139
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f876a.h: 2139: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+"14 ./LIB16F_GPS38400.h
+[; ;./LIB16F_GPS38400.h: 14: unsigned char RxBuffer;
+[v _RxBuffer `uc ~T0 @X0 1 e ]
+"16 ./LIB16F_SPI.h
+[; ;./LIB16F_SPI.h: 16: unsigned char BufferSPI[4];
+[v _BufferSPI `uc ~T0 @X0 -> 4 `i e ]
+"9 ./main.h
+[p x FOSC  =  HS         ]
+"10
+[p x WDTE  =  OFF        ]
+"11
+[p x PWRTE  =  ON        ]
+"12
+[p x BOREN  =  OFF       ]
+"13
+[p x LVP  =  OFF         ]
+"14
+[p x CPD  =  OFF         ]
+"15
+[p x WRT  =  OFF         ]
+"16
+[p x CP  =  OFF          ]
+"46
+[; ;./main.h: 46: unsigned char CmdGPS = 0;
+[v _CmdGPS `uc ~T0 @X0 1 e ]
+[i _CmdGPS
+-> -> 0 `i `uc
+]
+"47
+[; ;./main.h: 47: unsigned char ControlSample = 0;
+[v _ControlSample `uc ~T0 @X0 1 e ]
+[i _ControlSample
+-> -> 0 `i `uc
+]
+"48
+[; ;./main.h: 48: unsigned char ContaSample = 0;
+[v _ContaSample `uc ~T0 @X0 1 e ]
+[i _ContaSample
+-> -> 0 `i `uc
+]
+"50
+[; ;./main.h: 50: signed long SumData_X, SumData_Y, SumData_Z, SumData_TC, SumData_TS, SumData_GND;
+[v _SumData_X `l ~T0 @X0 1 e ]
+[v _SumData_Y `l ~T0 @X0 1 e ]
+[v _SumData_Z `l ~T0 @X0 1 e ]
+[v _SumData_TC `l ~T0 @X0 1 e ]
+[v _SumData_TS `l ~T0 @X0 1 e ]
+[v _SumData_GND `l ~T0 @X0 1 e ]
+"51
+[; ;./main.h: 51: signed long Data_X, Data_Y, Data_Z, Data_TC, Data_TS, Data_GND;
+[v _Data_X `l ~T0 @X0 1 e ]
+[v _Data_Y `l ~T0 @X0 1 e ]
+[v _Data_Z `l ~T0 @X0 1 e ]
+[v _Data_TC `l ~T0 @X0 1 e ]
+[v _Data_TS `l ~T0 @X0 1 e ]
+[v _Data_GND `l ~T0 @X0 1 e ]
+"54
+[; ;./main.h: 54: char BufferDAT[13];
+[v _BufferDAT `uc ~T0 @X0 -> 13 `i e ]
+[v $root$_Interrups `(v ~T0 @X0 0 e ]
+"10 Digitizer24bitsV0.c
+[; ;Digitizer24bitsV0.c: 10: void __attribute__((picinterrupt(("")))) Interrups(void){
+[v _Interrups `(v ~T1 @X0 1 ef ]
+{
+[e :U _Interrups ]
+[f ]
+"11
+[; ;Digitizer24bitsV0.c: 11:     unsigned char ID, conta;
+[v _ID `uc ~T0 @X0 1 a ]
+[v _conta `uc ~T0 @X0 1 a ]
+"13
+[; ;Digitizer24bitsV0.c: 13:     if((INTCONbits.INTF == 1) && (INTCONbits.INTE == 1)){
+[e $ ! && == -> . . _INTCONbits 0 1 `i -> 1 `i == -> . . _INTCONbits 0 4 `i -> 1 `i 88  ]
+{
+"14
+[; ;Digitizer24bitsV0.c: 14:         INTCONbits.INTF = 0;
+[e = . . _INTCONbits 0 1 -> -> 0 `i `uc ]
+"15
+[; ;Digitizer24bitsV0.c: 15:         INTCONbits.INTE = 0;
+[e = . . _INTCONbits 0 4 -> -> 0 `i `uc ]
+"17
+[; ;Digitizer24bitsV0.c: 17:         switch(CmdGPS){
+[e $U 90  ]
+{
+"18
+[; ;Digitizer24bitsV0.c: 18:             case 0:
+[e :U 91 ]
+"19
+[; ;Digitizer24bitsV0.c: 19:                 if(ControlSample == 1){
+[e $ ! == -> _ControlSample `i -> 1 `i 92  ]
+{
+"21
+[; ;Digitizer24bitsV0.c: 21:                     PORTAbits.RA2 = 1;
+[e = . . _PORTAbits 0 2 -> -> 1 `i `uc ]
+"24
+[; ;Digitizer24bitsV0.c: 24:                     TMR1H = 0x10;
+[e = _TMR1H -> -> 16 `i `uc ]
+"25
+[; ;Digitizer24bitsV0.c: 25:                     TMR1L = 0x06;
+[e = _TMR1L -> -> 6 `i `uc ]
+"26
+[; ;Digitizer24bitsV0.c: 26:                     T1CON = 0x31;
+[e = _T1CON -> -> 49 `i `uc ]
+"27
+[; ;Digitizer24bitsV0.c: 27:                     PIR1bits.TMR1IF = 0;
+[e = . . _PIR1bits 0 0 -> -> 0 `i `uc ]
+"28
+[; ;Digitizer24bitsV0.c: 28:                     PIE1bits.TMR1IE = 1;
+[e = . . _PIE1bits 0 0 -> -> 1 `i `uc ]
+"31
+[; ;Digitizer24bitsV0.c: 31:                     ContaSample = 0;
+[e = _ContaSample -> -> 0 `i `uc ]
+"34
+[; ;Digitizer24bitsV0.c: 34:                     PORTBbits.RB7 = 1;
+[e = . . _PORTBbits 0 7 -> -> 1 `i `uc ]
+"35
+[; ;Digitizer24bitsV0.c: 35:                     GPS_TIMEDATE();
+[e ( _GPS_TIMEDATE ..  ]
+"36
+[; ;Digitizer24bitsV0.c: 36:                     PORTBbits.RB7 = 0;
+[e = . . _PORTBbits 0 7 -> -> 0 `i `uc ]
+"39
+[; ;Digitizer24bitsV0.c: 39:                     print_string("G-JRODATE");
+[e ( _print_string (1 :s 1C ]
+"40
+[; ;Digitizer24bitsV0.c: 40:                     print_string(BufferDAT);
+[e ( _print_string (1 &U _BufferDAT ]
+"41
+[; ;Digitizer24bitsV0.c: 41:                     print_string("\n\r");
+[e ( _print_string (1 :s 2C ]
+"45
+[; ;Digitizer24bitsV0.c: 45:                     CleanHolding();
+[e ( _CleanHolding ..  ]
+"47
+[; ;Digitizer24bitsV0.c: 47:                     PORTB = 0x38;
+[e = _PORTB -> -> 56 `i `uc ]
+"48
+[; ;Digitizer24bitsV0.c: 48:                     PORTBbits.RB7 = 1;
+[e = . . _PORTBbits 0 7 -> -> 1 `i `uc ]
+"49
+[; ;Digitizer24bitsV0.c: 49:                     _delay((unsigned long)((7)*(9830400UL/4000.0)));
+[e ( __delay (1 -> * -> -> 7 `i `d / -> -> 9830400 `ul `d .4000.0 `ul ]
+"50
+[; ;Digitizer24bitsV0.c: 50:                     SumData_X = 0;
+[e = _SumData_X -> -> 0 `i `l ]
+"51
+[; ;Digitizer24bitsV0.c: 51:                     ReadAD24(0,0x00);
+[e ( _ReadAD24 (2 , -> -> 0 `i `uc -> -> 0 `i `uc ]
+"52
+[; ;Digitizer24bitsV0.c: 52:                     for(conta=0; conta<5; conta++){
+{
+[e = _conta -> -> 0 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 93  ]
+[e $U 94  ]
+[e :U 93 ]
+{
+"53
+[; ;Digitizer24bitsV0.c: 53:                         Data_X = ReadAD24(1,0x00);
+[e = _Data_X ( _ReadAD24 (2 , -> -> 1 `i `uc -> -> 0 `i `uc ]
+"54
+[; ;Digitizer24bitsV0.c: 54:                         SumData_X = SumData_X + Data_X;
+[e = _SumData_X + _SumData_X _Data_X ]
+"55
+[; ;Digitizer24bitsV0.c: 55:                     }
+}
+[e ++ _conta -> -> 1 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 93  ]
+[e :U 94 ]
+}
+"56
+[; ;Digitizer24bitsV0.c: 56:                     PORTBbits.RB7 = 0;
+[e = . . _PORTBbits 0 7 -> -> 0 `i `uc ]
+"58
+[; ;Digitizer24bitsV0.c: 58:                     CleanHolding();
+[e ( _CleanHolding ..  ]
+"60
+[; ;Digitizer24bitsV0.c: 60:                     PORTB = 0x18;
+[e = _PORTB -> -> 24 `i `uc ]
+"61
+[; ;Digitizer24bitsV0.c: 61:                     _delay((unsigned long)((7)*(9830400UL/4000.0)));
+[e ( __delay (1 -> * -> -> 7 `i `d / -> -> 9830400 `ul `d .4000.0 `ul ]
+"62
+[; ;Digitizer24bitsV0.c: 62:                     SumData_Y = 0;
+[e = _SumData_Y -> -> 0 `i `l ]
+"63
+[; ;Digitizer24bitsV0.c: 63:                     ReadAD24(0,0x00);
+[e ( _ReadAD24 (2 , -> -> 0 `i `uc -> -> 0 `i `uc ]
+"64
+[; ;Digitizer24bitsV0.c: 64:                     for(conta=0; conta<5; conta++){
+{
+[e = _conta -> -> 0 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 96  ]
+[e $U 97  ]
+[e :U 96 ]
+{
+"65
+[; ;Digitizer24bitsV0.c: 65:                         Data_Y = ReadAD24(1,0x00);
+[e = _Data_Y ( _ReadAD24 (2 , -> -> 1 `i `uc -> -> 0 `i `uc ]
+"66
+[; ;Digitizer24bitsV0.c: 66:                         SumData_Y = SumData_Y + Data_Y;
+[e = _SumData_Y + _SumData_Y _Data_Y ]
+"67
+[; ;Digitizer24bitsV0.c: 67:                     }
+}
+[e ++ _conta -> -> 1 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 96  ]
+[e :U 97 ]
+}
+"69
+[; ;Digitizer24bitsV0.c: 69:                     CleanHolding();
+[e ( _CleanHolding ..  ]
+"71
+[; ;Digitizer24bitsV0.c: 71:                     PORTB = 0x28;
+[e = _PORTB -> -> 40 `i `uc ]
+"72
+[; ;Digitizer24bitsV0.c: 72:                     _delay((unsigned long)((7)*(9830400UL/4000.0)));
+[e ( __delay (1 -> * -> -> 7 `i `d / -> -> 9830400 `ul `d .4000.0 `ul ]
+"73
+[; ;Digitizer24bitsV0.c: 73:                     SumData_Z = 0;
+[e = _SumData_Z -> -> 0 `i `l ]
+"74
+[; ;Digitizer24bitsV0.c: 74:                     ReadAD24(0,0x00);
+[e ( _ReadAD24 (2 , -> -> 0 `i `uc -> -> 0 `i `uc ]
+"75
+[; ;Digitizer24bitsV0.c: 75:                     for(conta=0; conta<5; conta++){
+{
+[e = _conta -> -> 0 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 99  ]
+[e $U 100  ]
+[e :U 99 ]
+{
+"76
+[; ;Digitizer24bitsV0.c: 76:                         Data_Z = ReadAD24(1,0x00);
+[e = _Data_Z ( _ReadAD24 (2 , -> -> 1 `i `uc -> -> 0 `i `uc ]
+"77
+[; ;Digitizer24bitsV0.c: 77:                         SumData_Z = SumData_Z + Data_Z;
+[e = _SumData_Z + _SumData_Z _Data_Z ]
+"78
+[; ;Digitizer24bitsV0.c: 78:                     }
+}
+[e ++ _conta -> -> 1 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 99  ]
+[e :U 100 ]
+}
+"80
+[; ;Digitizer24bitsV0.c: 80:                     CleanHolding();
+[e ( _CleanHolding ..  ]
+"82
+[; ;Digitizer24bitsV0.c: 82:                     PORTB = 0x08;
+[e = _PORTB -> -> 8 `i `uc ]
+"83
+[; ;Digitizer24bitsV0.c: 83:                     _delay((unsigned long)((7)*(9830400UL/4000.0)));
+[e ( __delay (1 -> * -> -> 7 `i `d / -> -> 9830400 `ul `d .4000.0 `ul ]
+"84
+[; ;Digitizer24bitsV0.c: 84:                     SumData_TC = 0;
+[e = _SumData_TC -> -> 0 `i `l ]
+"85
+[; ;Digitizer24bitsV0.c: 85:                     ReadAD24(0,0x00);
+[e ( _ReadAD24 (2 , -> -> 0 `i `uc -> -> 0 `i `uc ]
+"86
+[; ;Digitizer24bitsV0.c: 86:                     for(conta=0; conta<5; conta++){
+{
+[e = _conta -> -> 0 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 102  ]
+[e $U 103  ]
+[e :U 102 ]
+{
+"87
+[; ;Digitizer24bitsV0.c: 87:                         Data_TC = ReadAD24(1,0x00);
+[e = _Data_TC ( _ReadAD24 (2 , -> -> 1 `i `uc -> -> 0 `i `uc ]
+"88
+[; ;Digitizer24bitsV0.c: 88:                         SumData_TC = SumData_TC + Data_TC;
+[e = _SumData_TC + _SumData_TC _Data_TC ]
+"89
+[; ;Digitizer24bitsV0.c: 89:                     }
+}
+[e ++ _conta -> -> 1 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 102  ]
+[e :U 103 ]
+}
+"91
+[; ;Digitizer24bitsV0.c: 91:                     CleanHolding();
+[e ( _CleanHolding ..  ]
+"93
+[; ;Digitizer24bitsV0.c: 93:                     PORTB = 0x04;
+[e = _PORTB -> -> 4 `i `uc ]
+"94
+[; ;Digitizer24bitsV0.c: 94:                     _delay((unsigned long)((7)*(9830400UL/4000.0)));
+[e ( __delay (1 -> * -> -> 7 `i `d / -> -> 9830400 `ul `d .4000.0 `ul ]
+"95
+[; ;Digitizer24bitsV0.c: 95:                     SumData_TS = 0;
+[e = _SumData_TS -> -> 0 `i `l ]
+"96
+[; ;Digitizer24bitsV0.c: 96:                     ReadAD24(0,0x00);
+[e ( _ReadAD24 (2 , -> -> 0 `i `uc -> -> 0 `i `uc ]
+"97
+[; ;Digitizer24bitsV0.c: 97:                     for(conta=0; conta<5; conta++){
+{
+[e = _conta -> -> 0 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 105  ]
+[e $U 106  ]
+[e :U 105 ]
+{
+"98
+[; ;Digitizer24bitsV0.c: 98:                         Data_TS = ReadAD24(1,0x00);
+[e = _Data_TS ( _ReadAD24 (2 , -> -> 1 `i `uc -> -> 0 `i `uc ]
+"99
+[; ;Digitizer24bitsV0.c: 99:                         SumData_TS = SumData_TS + Data_TS;
+[e = _SumData_TS + _SumData_TS _Data_TS ]
+"100
+[; ;Digitizer24bitsV0.c: 100:                     }
+}
+[e ++ _conta -> -> 1 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 105  ]
+[e :U 106 ]
+}
+"103
+[; ;Digitizer24bitsV0.c: 103:                     Data_X = SumData_X/5;
+[e = _Data_X / _SumData_X -> -> 5 `i `l ]
+"104
+[; ;Digitizer24bitsV0.c: 104:                     Data_Y = SumData_Y/5;
+[e = _Data_Y / _SumData_Y -> -> 5 `i `l ]
+"105
+[; ;Digitizer24bitsV0.c: 105:                     Data_Z = SumData_Z/5;
+[e = _Data_Z / _SumData_Z -> -> 5 `i `l ]
+"106
+[; ;Digitizer24bitsV0.c: 106:                     Data_TC = SumData_TC/5;
+[e = _Data_TC / _SumData_TC -> -> 5 `i `l ]
+"107
+[; ;Digitizer24bitsV0.c: 107:                     Data_TS = SumData_TS/5;
+[e = _Data_TS / _SumData_TS -> -> 5 `i `l ]
+"110
+[; ;Digitizer24bitsV0.c: 110:                     print_string("JROADQ");
+[e ( _print_string (1 :s 3C ]
+"111
+[; ;Digitizer24bitsV0.c: 111:                     WriteByte_USART(ContaSample);
+[e ( _WriteByte_USART (1 _ContaSample ]
+"112
+[; ;Digitizer24bitsV0.c: 112:                     print_value(Data_X);
+[e ( _print_value (1 _Data_X ]
+"113
+[; ;Digitizer24bitsV0.c: 113:                     print_value(Data_Y);
+[e ( _print_value (1 _Data_Y ]
+"114
+[; ;Digitizer24bitsV0.c: 114:                     print_value(Data_Z);
+[e ( _print_value (1 _Data_Z ]
+"115
+[; ;Digitizer24bitsV0.c: 115:                     print_value(Data_TC);
+[e ( _print_value (1 _Data_TC ]
+"116
+[; ;Digitizer24bitsV0.c: 116:                     print_value(Data_TS);
+[e ( _print_value (1 _Data_TS ]
+"117
+[; ;Digitizer24bitsV0.c: 117:                     print_string("\n\r");
+[e ( _print_string (1 :s 4C ]
+"119
+[; ;Digitizer24bitsV0.c: 119:                     PORTAbits.RA2 = 0;
+[e = . . _PORTAbits 0 2 -> -> 0 `i `uc ]
+"121
+[; ;Digitizer24bitsV0.c: 121:                 }
+}
+[e :U 92 ]
+"122
+[; ;Digitizer24bitsV0.c: 122:                 break;
+[e $U 89  ]
+"123
+[; ;Digitizer24bitsV0.c: 123:             case 1:
+[e :U 108 ]
+"124
+[; ;Digitizer24bitsV0.c: 124:                 GPS_LATITUDE();
+[e ( _GPS_LATITUDE ..  ]
+"125
+[; ;Digitizer24bitsV0.c: 125:                 TransmitDAT_USART('1');
+[e ( _TransmitDAT_USART (1 -> -> 49 `ui `uc ]
+"126
+[; ;Digitizer24bitsV0.c: 126:                 break;
+[e $U 89  ]
+"127
+[; ;Digitizer24bitsV0.c: 127:             case 2:
+[e :U 109 ]
+"128
+[; ;Digitizer24bitsV0.c: 128:                 GPS_LONGITUDE();
+[e ( _GPS_LONGITUDE ..  ]
+"129
+[; ;Digitizer24bitsV0.c: 129:                 TransmitDAT_USART('2');
+[e ( _TransmitDAT_USART (1 -> -> 50 `ui `uc ]
+"130
+[; ;Digitizer24bitsV0.c: 130:                 break;
+[e $U 89  ]
+"131
+[; ;Digitizer24bitsV0.c: 131:             case 3:
+[e :U 110 ]
+"132
+[; ;Digitizer24bitsV0.c: 132:                 GPS_STATUS();
+[e ( _GPS_STATUS ..  ]
+"133
+[; ;Digitizer24bitsV0.c: 133:                 if(RxBuffer=='A'){
+[e $ ! == -> _RxBuffer `ui -> 65 `ui 111  ]
+{
+"134
+[; ;Digitizer24bitsV0.c: 134:                     TransmitDAT_USART('8');
+[e ( _TransmitDAT_USART (1 -> -> 56 `ui `uc ]
+"135
+[; ;Digitizer24bitsV0.c: 135:                 }else{
+}
+[e $U 112  ]
+[e :U 111 ]
+{
+"136
+[; ;Digitizer24bitsV0.c: 136:                     TransmitDAT_USART('0');
+[e ( _TransmitDAT_USART (1 -> -> 48 `ui `uc ]
+"137
+[; ;Digitizer24bitsV0.c: 137:                 }
+}
+[e :U 112 ]
+"138
+[; ;Digitizer24bitsV0.c: 138:                 break;
+[e $U 89  ]
+"139
+[; ;Digitizer24bitsV0.c: 139:             default:
+[e :U 113 ]
+"140
+[; ;Digitizer24bitsV0.c: 140:                 __nop();
+[e ( ___nop ..  ]
+"141
+[; ;Digitizer24bitsV0.c: 141:         }
+}
+[e $U 89  ]
+[e :U 90 ]
+[e [\ -> _CmdGPS `i , $ -> 0 `i 91
+ , $ -> 1 `i 108
+ , $ -> 2 `i 109
+ , $ -> 3 `i 110
+ 113 ]
+[e :U 89 ]
+"142
+[; ;Digitizer24bitsV0.c: 142:     }else if((PIR1bits.RCIF == 1) && (PIE1bits.RCIE == 1)){
+}
+[e $U 114  ]
+[e :U 88 ]
+[e $ ! && == -> . . _PIR1bits 0 5 `i -> 1 `i == -> . . _PIE1bits 0 5 `i -> 1 `i 115  ]
+{
+"143
+[; ;Digitizer24bitsV0.c: 143:         ID = ReceiveCMD_USART();
+[e = _ID ( _ReceiveCMD_USART ..  ]
+"144
+[; ;Digitizer24bitsV0.c: 144:         switch(ID){
+[e $U 117  ]
+{
+"145
+[; ;Digitizer24bitsV0.c: 145:             case '5':
+[e :U 118 ]
+"146
+[; ;Digitizer24bitsV0.c: 146:                 TransmitCMD_USART('5');
+[e ( _TransmitCMD_USART (1 -> -> 53 `ui `uc ]
+"147
+[; ;Digitizer24bitsV0.c: 147:                 ControlSample = 0;
+[e = _ControlSample -> -> 0 `i `uc ]
+"148
+[; ;Digitizer24bitsV0.c: 148:                 break;
+[e $U 116  ]
+"149
+[; ;Digitizer24bitsV0.c: 149:             case '0':
+[e :U 119 ]
+"150
+[; ;Digitizer24bitsV0.c: 150:                 TransmitCMD_USART('0');
+[e ( _TransmitCMD_USART (1 -> -> 48 `ui `uc ]
+"151
+[; ;Digitizer24bitsV0.c: 151:                 BufferDAT[0] = 'V';
+[e = *U + &U _BufferDAT * -> -> -> 0 `i `ui `ux -> -> # *U &U _BufferDAT `ui `ux -> -> 86 `ui `uc ]
+"152
+[; ;Digitizer24bitsV0.c: 152:                 BufferDAT[1] = '2';
+[e = *U + &U _BufferDAT * -> -> -> 1 `i `ui `ux -> -> # *U &U _BufferDAT `ui `ux -> -> 50 `ui `uc ]
+"153
+[; ;Digitizer24bitsV0.c: 153:                 BufferDAT[2] = '0';
+[e = *U + &U _BufferDAT * -> -> -> 2 `i `ui `ux -> -> # *U &U _BufferDAT `ui `ux -> -> 48 `ui `uc ]
+"154
+[; ;Digitizer24bitsV0.c: 154:                 BufferDAT[12] = '\0';
+[e = *U + &U _BufferDAT * -> -> -> 12 `i `ui `ux -> -> # *U &U _BufferDAT `ui `ux -> -> 0 `ui `uc ]
+"155
+[; ;Digitizer24bitsV0.c: 155:                 TransmitDAT_USART('0');
+[e ( _TransmitDAT_USART (1 -> -> 48 `ui `uc ]
+"156
+[; ;Digitizer24bitsV0.c: 156:                 break;
+[e $U 116  ]
+"157
+[; ;Digitizer24bitsV0.c: 157:             case '1':
+[e :U 120 ]
+"158
+[; ;Digitizer24bitsV0.c: 158:                 TransmitCMD_USART('1');
+[e ( _TransmitCMD_USART (1 -> -> 49 `ui `uc ]
+"161
+[; ;Digitizer24bitsV0.c: 161:                 CmdGPS = 1;
+[e = _CmdGPS -> -> 1 `i `uc ]
+"162
+[; ;Digitizer24bitsV0.c: 162:                 OPTION_REGbits.INTEDG = 0;
+[e = . . _OPTION_REGbits 0 4 -> -> 0 `i `uc ]
+"163
+[; ;Digitizer24bitsV0.c: 163:                 INTCONbits.INTF = 0;
+[e = . . _INTCONbits 0 1 -> -> 0 `i `uc ]
+"164
+[; ;Digitizer24bitsV0.c: 164:                 INTCONbits.INTE = 1;
+[e = . . _INTCONbits 0 4 -> -> 1 `i `uc ]
+"166
+[; ;Digitizer24bitsV0.c: 166:                 break;
+[e $U 116  ]
+"167
+[; ;Digitizer24bitsV0.c: 167:             case '2':
+[e :U 121 ]
+"168
+[; ;Digitizer24bitsV0.c: 168:                 TransmitCMD_USART('2');
+[e ( _TransmitCMD_USART (1 -> -> 50 `ui `uc ]
+"171
+[; ;Digitizer24bitsV0.c: 171:                 CmdGPS = 2;
+[e = _CmdGPS -> -> 2 `i `uc ]
+"172
+[; ;Digitizer24bitsV0.c: 172:                 OPTION_REGbits.INTEDG = 0;
+[e = . . _OPTION_REGbits 0 4 -> -> 0 `i `uc ]
+"173
+[; ;Digitizer24bitsV0.c: 173:                 INTCONbits.INTF = 0;
+[e = . . _INTCONbits 0 1 -> -> 0 `i `uc ]
+"174
+[; ;Digitizer24bitsV0.c: 174:                 INTCONbits.INTE = 1;
+[e = . . _INTCONbits 0 4 -> -> 1 `i `uc ]
+"176
+[; ;Digitizer24bitsV0.c: 176:                 break;
+[e $U 116  ]
+"177
+[; ;Digitizer24bitsV0.c: 177:             case '3':
+[e :U 122 ]
+"178
+[; ;Digitizer24bitsV0.c: 178:                 TransmitCMD_USART('3');
+[e ( _TransmitCMD_USART (1 -> -> 51 `ui `uc ]
+"181
+[; ;Digitizer24bitsV0.c: 181:                 BufferDAT[0] = ResetCS5532();
+[e = *U + &U _BufferDAT * -> -> -> 0 `i `ui `ux -> -> # *U &U _BufferDAT `ui `ux -> ( _ResetCS5532 ..  `uc ]
+"182
+[; ;Digitizer24bitsV0.c: 182:                 InitCS5532();
+[e ( _InitCS5532 ..  ]
+"184
+[; ;Digitizer24bitsV0.c: 184:                 ReadRegister_4bytesCS5532(0x09);
+[e ( _ReadRegister_4bytesCS5532 (1 -> -> 9 `i `uc ]
+"185
+[; ;Digitizer24bitsV0.c: 185:                 BufferDAT[1] = BufferSPI[0];
+[e = *U + &U _BufferDAT * -> -> -> 1 `i `ui `ux -> -> # *U &U _BufferDAT `ui `ux -> *U + &U _BufferSPI * -> -> -> 0 `i `ui `ux -> -> # *U &U _BufferSPI `ui `ux `uc ]
+"186
+[; ;Digitizer24bitsV0.c: 186:                 BufferDAT[2] = BufferSPI[1];
+[e = *U + &U _BufferDAT * -> -> -> 2 `i `ui `ux -> -> # *U &U _BufferDAT `ui `ux -> *U + &U _BufferSPI * -> -> -> 1 `i `ui `ux -> -> # *U &U _BufferSPI `ui `ux `uc ]
+"187
+[; ;Digitizer24bitsV0.c: 187:                 BufferDAT[3] = BufferSPI[2];
+[e = *U + &U _BufferDAT * -> -> -> 3 `i `ui `ux -> -> # *U &U _BufferDAT `ui `ux -> *U + &U _BufferSPI * -> -> -> 2 `i `ui `ux -> -> # *U &U _BufferSPI `ui `ux `uc ]
+"188
+[; ;Digitizer24bitsV0.c: 188:                 BufferDAT[4] = BufferSPI[3];
+[e = *U + &U _BufferDAT * -> -> -> 4 `i `ui `ux -> -> # *U &U _BufferDAT `ui `ux -> *U + &U _BufferSPI * -> -> -> 3 `i `ui `ux -> -> # *U &U _BufferSPI `ui `ux `uc ]
+"191
+[; ;Digitizer24bitsV0.c: 191:                 ReadRegister_4bytesCS5532(0x0A);
+[e ( _ReadRegister_4bytesCS5532 (1 -> -> 10 `i `uc ]
+"192
+[; ;Digitizer24bitsV0.c: 192:                 BufferDAT[5] = BufferSPI[0];
+[e = *U + &U _BufferDAT * -> -> -> 5 `i `ui `ux -> -> # *U &U _BufferDAT `ui `ux -> *U + &U _BufferSPI * -> -> -> 0 `i `ui `ux -> -> # *U &U _BufferSPI `ui `ux `uc ]
+"193
+[; ;Digitizer24bitsV0.c: 193:                 BufferDAT[6] = BufferSPI[1];
+[e = *U + &U _BufferDAT * -> -> -> 6 `i `ui `ux -> -> # *U &U _BufferDAT `ui `ux -> *U + &U _BufferSPI * -> -> -> 1 `i `ui `ux -> -> # *U &U _BufferSPI `ui `ux `uc ]
+"194
+[; ;Digitizer24bitsV0.c: 194:                 BufferDAT[7] = BufferSPI[2];
+[e = *U + &U _BufferDAT * -> -> -> 7 `i `ui `ux -> -> # *U &U _BufferDAT `ui `ux -> *U + &U _BufferSPI * -> -> -> 2 `i `ui `ux -> -> # *U &U _BufferSPI `ui `ux `uc ]
+"195
+[; ;Digitizer24bitsV0.c: 195:                 BufferDAT[8] = BufferSPI[3];
+[e = *U + &U _BufferDAT * -> -> -> 8 `i `ui `ux -> -> # *U &U _BufferDAT `ui `ux -> *U + &U _BufferSPI * -> -> -> 3 `i `ui `ux -> -> # *U &U _BufferSPI `ui `ux `uc ]
+"196
+[; ;Digitizer24bitsV0.c: 196:                 BufferDAT[12] = '\0';
+[e = *U + &U _BufferDAT * -> -> -> 12 `i `ui `ux -> -> # *U &U _BufferDAT `ui `ux -> -> 0 `ui `uc ]
+"197
+[; ;Digitizer24bitsV0.c: 197:                 TransmitDAT_USART('3');
+[e ( _TransmitDAT_USART (1 -> -> 51 `ui `uc ]
+"199
+[; ;Digitizer24bitsV0.c: 199:                 break;
+[e $U 116  ]
+"200
+[; ;Digitizer24bitsV0.c: 200:             case '4':
+[e :U 123 ]
+"201
+[; ;Digitizer24bitsV0.c: 201:                 TransmitCMD_USART('4');
+[e ( _TransmitCMD_USART (1 -> -> 52 `ui `uc ]
+"203
+[; ;Digitizer24bitsV0.c: 203:                 CmdGPS = 0;
+[e = _CmdGPS -> -> 0 `i `uc ]
+"204
+[; ;Digitizer24bitsV0.c: 204:                 ControlSample = 1;
+[e = _ControlSample -> -> 1 `i `uc ]
+"205
+[; ;Digitizer24bitsV0.c: 205:                 TransferByte_SPI(0xC0);
+[e ( _TransferByte_SPI (1 -> -> 192 `i `uc ]
+"206
+[; ;Digitizer24bitsV0.c: 206:                 OPTION_REGbits.INTEDG = 0;
+[e = . . _OPTION_REGbits 0 4 -> -> 0 `i `uc ]
+"207
+[; ;Digitizer24bitsV0.c: 207:                 INTCONbits.INTF = 0;
+[e = . . _INTCONbits 0 1 -> -> 0 `i `uc ]
+"208
+[; ;Digitizer24bitsV0.c: 208:                 INTCONbits.INTE = 1;
+[e = . . _INTCONbits 0 4 -> -> 1 `i `uc ]
+"210
+[; ;Digitizer24bitsV0.c: 210:                 break;
+[e $U 116  ]
+"211
+[; ;Digitizer24bitsV0.c: 211:             case '6':
+[e :U 124 ]
+"212
+[; ;Digitizer24bitsV0.c: 212:                 TransmitCMD_USART('6');
+[e ( _TransmitCMD_USART (1 -> -> 54 `ui `uc ]
+"214
+[; ;Digitizer24bitsV0.c: 214:                 PORTB = 0x0C;
+[e = _PORTB -> -> 12 `i `uc ]
+"215
+[; ;Digitizer24bitsV0.c: 215:                 _delay((unsigned long)((7)*(9830400UL/4000.0)));
+[e ( __delay (1 -> * -> -> 7 `i `d / -> -> 9830400 `ul `d .4000.0 `ul ]
+"216
+[; ;Digitizer24bitsV0.c: 216:                 SumData_GND = 0;
+[e = _SumData_GND -> -> 0 `i `l ]
+"217
+[; ;Digitizer24bitsV0.c: 217:                 TransferByte_SPI(0x80);
+[e ( _TransferByte_SPI (1 -> -> 128 `i `uc ]
+"218
+[; ;Digitizer24bitsV0.c: 218:                 ReadAD24(0,0x00);
+[e ( _ReadAD24 (2 , -> -> 0 `i `uc -> -> 0 `i `uc ]
+"219
+[; ;Digitizer24bitsV0.c: 219:                 for(conta=0; conta<5; conta++){
+{
+[e = _conta -> -> 0 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 125  ]
+[e $U 126  ]
+[e :U 125 ]
+{
+"220
+[; ;Digitizer24bitsV0.c: 220:                     TransferByte_SPI(0x80);
+[e ( _TransferByte_SPI (1 -> -> 128 `i `uc ]
+"221
+[; ;Digitizer24bitsV0.c: 221:                     Data_GND = ReadAD24(1,0x00);
+[e = _Data_GND ( _ReadAD24 (2 , -> -> 1 `i `uc -> -> 0 `i `uc ]
+"222
+[; ;Digitizer24bitsV0.c: 222:                     SumData_GND = SumData_GND + Data_GND;
+[e = _SumData_GND + _SumData_GND _Data_GND ]
+"223
+[; ;Digitizer24bitsV0.c: 223:                 }
+}
+[e ++ _conta -> -> 1 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 125  ]
+[e :U 126 ]
+}
+"224
+[; ;Digitizer24bitsV0.c: 224:                 Data_GND = SumData_GND/5;
+[e = _Data_GND / _SumData_GND -> -> 5 `i `l ]
+"225
+[; ;Digitizer24bitsV0.c: 225:                 print_value(Data_GND);
+[e ( _print_value (1 _Data_GND ]
+"227
+[; ;Digitizer24bitsV0.c: 227:                 break;
+[e $U 116  ]
+"228
+[; ;Digitizer24bitsV0.c: 228:             case '7':
+[e :U 128 ]
+"229
+[; ;Digitizer24bitsV0.c: 229:                 TransmitCMD_USART('7');
+[e ( _TransmitCMD_USART (1 -> -> 55 `ui `uc ]
+"230
+[; ;Digitizer24bitsV0.c: 230:                 break;
+[e $U 116  ]
+"231
+[; ;Digitizer24bitsV0.c: 231:             case '8':
+[e :U 129 ]
+"232
+[; ;Digitizer24bitsV0.c: 232:                 TransmitCMD_USART('8');
+[e ( _TransmitCMD_USART (1 -> -> 56 `ui `uc ]
+"235
+[; ;Digitizer24bitsV0.c: 235:                 CmdGPS = 3;
+[e = _CmdGPS -> -> 3 `i `uc ]
+"236
+[; ;Digitizer24bitsV0.c: 236:                 OPTION_REGbits.INTEDG = 0;
+[e = . . _OPTION_REGbits 0 4 -> -> 0 `i `uc ]
+"237
+[; ;Digitizer24bitsV0.c: 237:                 INTCONbits.INTF = 0;
+[e = . . _INTCONbits 0 1 -> -> 0 `i `uc ]
+"238
+[; ;Digitizer24bitsV0.c: 238:                 INTCONbits.INTE = 1;
+[e = . . _INTCONbits 0 4 -> -> 1 `i `uc ]
+"240
+[; ;Digitizer24bitsV0.c: 240:                 break;
+[e $U 116  ]
+"241
+[; ;Digitizer24bitsV0.c: 241:             case '9':
+[e :U 130 ]
+"243
+[; ;Digitizer24bitsV0.c: 243:                 PORTAbits.RA2 = 1;
+[e = . . _PORTAbits 0 2 -> -> 1 `i `uc ]
+"246
+[; ;Digitizer24bitsV0.c: 246:                 TMR1H = 0x10;
+[e = _TMR1H -> -> 16 `i `uc ]
+"247
+[; ;Digitizer24bitsV0.c: 247:                 TMR1L = 0x06;
+[e = _TMR1L -> -> 6 `i `uc ]
+"248
+[; ;Digitizer24bitsV0.c: 248:                 T1CON = 0x31;
+[e = _T1CON -> -> 49 `i `uc ]
+"249
+[; ;Digitizer24bitsV0.c: 249:                 PIR1bits.TMR1IF = 0;
+[e = . . _PIR1bits 0 0 -> -> 0 `i `uc ]
+"250
+[; ;Digitizer24bitsV0.c: 250:                 PIE1bits.TMR1IE = 1;
+[e = . . _PIE1bits 0 0 -> -> 1 `i `uc ]
+"252
+[; ;Digitizer24bitsV0.c: 252:                 TransmitCMD_USART('9');
+[e ( _TransmitCMD_USART (1 -> -> 57 `ui `uc ]
+"254
+[; ;Digitizer24bitsV0.c: 254:                 TransferByte_SPI(0xC0);
+[e ( _TransferByte_SPI (1 -> -> 192 `i `uc ]
+"257
+[; ;Digitizer24bitsV0.c: 257:                 ContaSample = 0;
+[e = _ContaSample -> -> 0 `i `uc ]
+"258
+[; ;Digitizer24bitsV0.c: 258:                 ControlSample = 0;
+[e = _ControlSample -> -> 0 `i `uc ]
+"261
+[; ;Digitizer24bitsV0.c: 261:                 print_string("G-JRODATEXXXXXXXXXXXX\n\r");
+[e ( _print_string (1 :s 5C ]
+"265
+[; ;Digitizer24bitsV0.c: 265:                 CleanHolding();
+[e ( _CleanHolding ..  ]
+"267
+[; ;Digitizer24bitsV0.c: 267:                 PORTB = 0x38;
+[e = _PORTB -> -> 56 `i `uc ]
+"268
+[; ;Digitizer24bitsV0.c: 268:                 PORTBbits.RB7 = 1;
+[e = . . _PORTBbits 0 7 -> -> 1 `i `uc ]
+"269
+[; ;Digitizer24bitsV0.c: 269:                 _delay((unsigned long)((7)*(9830400UL/4000.0)));
+[e ( __delay (1 -> * -> -> 7 `i `d / -> -> 9830400 `ul `d .4000.0 `ul ]
+"270
+[; ;Digitizer24bitsV0.c: 270:                 SumData_X = 0;
+[e = _SumData_X -> -> 0 `i `l ]
+"271
+[; ;Digitizer24bitsV0.c: 271:                 ReadAD24(0,0x00);
+[e ( _ReadAD24 (2 , -> -> 0 `i `uc -> -> 0 `i `uc ]
+"272
+[; ;Digitizer24bitsV0.c: 272:                 for(conta=0; conta<5; conta++){
+{
+[e = _conta -> -> 0 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 131  ]
+[e $U 132  ]
+[e :U 131 ]
+{
+"273
+[; ;Digitizer24bitsV0.c: 273:                     Data_X = ReadAD24(1,0x00);
+[e = _Data_X ( _ReadAD24 (2 , -> -> 1 `i `uc -> -> 0 `i `uc ]
+"274
+[; ;Digitizer24bitsV0.c: 274:                     SumData_X = SumData_X + Data_X;
+[e = _SumData_X + _SumData_X _Data_X ]
+"275
+[; ;Digitizer24bitsV0.c: 275:                 }
+}
+[e ++ _conta -> -> 1 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 131  ]
+[e :U 132 ]
+}
+"276
+[; ;Digitizer24bitsV0.c: 276:                 PORTBbits.RB7 = 0;
+[e = . . _PORTBbits 0 7 -> -> 0 `i `uc ]
+"278
+[; ;Digitizer24bitsV0.c: 278:                 CleanHolding();
+[e ( _CleanHolding ..  ]
+"280
+[; ;Digitizer24bitsV0.c: 280:                 PORTB = 0x18;
+[e = _PORTB -> -> 24 `i `uc ]
+"281
+[; ;Digitizer24bitsV0.c: 281:                 _delay((unsigned long)((7)*(9830400UL/4000.0)));
+[e ( __delay (1 -> * -> -> 7 `i `d / -> -> 9830400 `ul `d .4000.0 `ul ]
+"282
+[; ;Digitizer24bitsV0.c: 282:                 SumData_Y = 0;
+[e = _SumData_Y -> -> 0 `i `l ]
+"283
+[; ;Digitizer24bitsV0.c: 283:                 ReadAD24(0,0x00);
+[e ( _ReadAD24 (2 , -> -> 0 `i `uc -> -> 0 `i `uc ]
+"284
+[; ;Digitizer24bitsV0.c: 284:                 for(conta=0; conta<5; conta++){
+{
+[e = _conta -> -> 0 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 134  ]
+[e $U 135  ]
+[e :U 134 ]
+{
+"285
+[; ;Digitizer24bitsV0.c: 285:                     Data_Y = ReadAD24(1,0x00);
+[e = _Data_Y ( _ReadAD24 (2 , -> -> 1 `i `uc -> -> 0 `i `uc ]
+"286
+[; ;Digitizer24bitsV0.c: 286:                     SumData_Y = SumData_Y + Data_Y;
+[e = _SumData_Y + _SumData_Y _Data_Y ]
+"287
+[; ;Digitizer24bitsV0.c: 287:                 }
+}
+[e ++ _conta -> -> 1 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 134  ]
+[e :U 135 ]
+}
+"289
+[; ;Digitizer24bitsV0.c: 289:                 CleanHolding();
+[e ( _CleanHolding ..  ]
+"291
+[; ;Digitizer24bitsV0.c: 291:                 PORTB = 0x28;
+[e = _PORTB -> -> 40 `i `uc ]
+"292
+[; ;Digitizer24bitsV0.c: 292:                 _delay((unsigned long)((7)*(9830400UL/4000.0)));
+[e ( __delay (1 -> * -> -> 7 `i `d / -> -> 9830400 `ul `d .4000.0 `ul ]
+"293
+[; ;Digitizer24bitsV0.c: 293:                 SumData_Z = 0;
+[e = _SumData_Z -> -> 0 `i `l ]
+"294
+[; ;Digitizer24bitsV0.c: 294:                 ReadAD24(0,0x00);
+[e ( _ReadAD24 (2 , -> -> 0 `i `uc -> -> 0 `i `uc ]
+"295
+[; ;Digitizer24bitsV0.c: 295:                 for(conta=0; conta<5; conta++){
+{
+[e = _conta -> -> 0 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 137  ]
+[e $U 138  ]
+[e :U 137 ]
+{
+"296
+[; ;Digitizer24bitsV0.c: 296:                     Data_Z = ReadAD24(1,0x00);
+[e = _Data_Z ( _ReadAD24 (2 , -> -> 1 `i `uc -> -> 0 `i `uc ]
+"297
+[; ;Digitizer24bitsV0.c: 297:                     SumData_Z = SumData_Z + Data_Z;
+[e = _SumData_Z + _SumData_Z _Data_Z ]
+"298
+[; ;Digitizer24bitsV0.c: 298:                 }
+}
+[e ++ _conta -> -> 1 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 137  ]
+[e :U 138 ]
+}
+"300
+[; ;Digitizer24bitsV0.c: 300:                 CleanHolding();
+[e ( _CleanHolding ..  ]
+"302
+[; ;Digitizer24bitsV0.c: 302:                 PORTB = 0x08;
+[e = _PORTB -> -> 8 `i `uc ]
+"303
+[; ;Digitizer24bitsV0.c: 303:                 _delay((unsigned long)((7)*(9830400UL/4000.0)));
+[e ( __delay (1 -> * -> -> 7 `i `d / -> -> 9830400 `ul `d .4000.0 `ul ]
+"304
+[; ;Digitizer24bitsV0.c: 304:                 SumData_TC = 0;
+[e = _SumData_TC -> -> 0 `i `l ]
+"305
+[; ;Digitizer24bitsV0.c: 305:                 ReadAD24(0,0x00);
+[e ( _ReadAD24 (2 , -> -> 0 `i `uc -> -> 0 `i `uc ]
+"306
+[; ;Digitizer24bitsV0.c: 306:                 for(conta=0; conta<5; conta++){
+{
+[e = _conta -> -> 0 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 140  ]
+[e $U 141  ]
+[e :U 140 ]
+{
+"307
+[; ;Digitizer24bitsV0.c: 307:                     Data_TC = ReadAD24(1,0x00);
+[e = _Data_TC ( _ReadAD24 (2 , -> -> 1 `i `uc -> -> 0 `i `uc ]
+"308
+[; ;Digitizer24bitsV0.c: 308:                     SumData_TC = SumData_TC + Data_TC;
+[e = _SumData_TC + _SumData_TC _Data_TC ]
+"309
+[; ;Digitizer24bitsV0.c: 309:                 }
+}
+[e ++ _conta -> -> 1 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 140  ]
+[e :U 141 ]
+}
+"311
+[; ;Digitizer24bitsV0.c: 311:                 CleanHolding();
+[e ( _CleanHolding ..  ]
+"313
+[; ;Digitizer24bitsV0.c: 313:                 PORTB = 0x04;
+[e = _PORTB -> -> 4 `i `uc ]
+"314
+[; ;Digitizer24bitsV0.c: 314:                 _delay((unsigned long)((7)*(9830400UL/4000.0)));
+[e ( __delay (1 -> * -> -> 7 `i `d / -> -> 9830400 `ul `d .4000.0 `ul ]
+"315
+[; ;Digitizer24bitsV0.c: 315:                 SumData_TS = 0;
+[e = _SumData_TS -> -> 0 `i `l ]
+"316
+[; ;Digitizer24bitsV0.c: 316:                 ReadAD24(0,0x00);
+[e ( _ReadAD24 (2 , -> -> 0 `i `uc -> -> 0 `i `uc ]
+"317
+[; ;Digitizer24bitsV0.c: 317:                 for(conta=0; conta<5; conta++){
+{
+[e = _conta -> -> 0 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 143  ]
+[e $U 144  ]
+[e :U 143 ]
+{
+"318
+[; ;Digitizer24bitsV0.c: 318:                     Data_TS = ReadAD24(1,0x00);
+[e = _Data_TS ( _ReadAD24 (2 , -> -> 1 `i `uc -> -> 0 `i `uc ]
+"319
+[; ;Digitizer24bitsV0.c: 319:                     SumData_TS = SumData_TS + Data_TS;
+[e = _SumData_TS + _SumData_TS _Data_TS ]
+"320
+[; ;Digitizer24bitsV0.c: 320:                 }
+}
+[e ++ _conta -> -> 1 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 143  ]
+[e :U 144 ]
+}
+"323
+[; ;Digitizer24bitsV0.c: 323:                 Data_X = SumData_X/5;
+[e = _Data_X / _SumData_X -> -> 5 `i `l ]
+"324
+[; ;Digitizer24bitsV0.c: 324:                 Data_Y = SumData_Y/5;
+[e = _Data_Y / _SumData_Y -> -> 5 `i `l ]
+"325
+[; ;Digitizer24bitsV0.c: 325:                 Data_Z = SumData_Z/5;
+[e = _Data_Z / _SumData_Z -> -> 5 `i `l ]
+"326
+[; ;Digitizer24bitsV0.c: 326:                 Data_TC = SumData_TC/5;
+[e = _Data_TC / _SumData_TC -> -> 5 `i `l ]
+"327
+[; ;Digitizer24bitsV0.c: 327:                 Data_TS = SumData_TS/5;
+[e = _Data_TS / _SumData_TS -> -> 5 `i `l ]
+"330
+[; ;Digitizer24bitsV0.c: 330:                 print_string("JROADQ");
+[e ( _print_string (1 :s 6C ]
+"331
+[; ;Digitizer24bitsV0.c: 331:                 WriteByte_USART(ContaSample);
+[e ( _WriteByte_USART (1 _ContaSample ]
+"332
+[; ;Digitizer24bitsV0.c: 332:                 print_value(Data_X);
+[e ( _print_value (1 _Data_X ]
+"333
+[; ;Digitizer24bitsV0.c: 333:                 print_value(Data_Y);
+[e ( _print_value (1 _Data_Y ]
+"334
+[; ;Digitizer24bitsV0.c: 334:                 print_value(Data_Z);
+[e ( _print_value (1 _Data_Z ]
+"335
+[; ;Digitizer24bitsV0.c: 335:                 print_value(Data_TC);
+[e ( _print_value (1 _Data_TC ]
+"336
+[; ;Digitizer24bitsV0.c: 336:                 print_value(Data_TS);
+[e ( _print_value (1 _Data_TS ]
+"337
+[; ;Digitizer24bitsV0.c: 337:                 print_string("\n\r");
+[e ( _print_string (1 :s 7C ]
+"339
+[; ;Digitizer24bitsV0.c: 339:                 PORTAbits.RA2 = 0;
+[e = . . _PORTAbits 0 2 -> -> 0 `i `uc ]
+"341
+[; ;Digitizer24bitsV0.c: 341:                 break;
+[e $U 116  ]
+"342
+[; ;Digitizer24bitsV0.c: 342:             default:
+[e :U 146 ]
+"343
+[; ;Digitizer24bitsV0.c: 343:                 TransmitCMD_USART('X');
+[e ( _TransmitCMD_USART (1 -> -> 88 `ui `uc ]
+"344
+[; ;Digitizer24bitsV0.c: 344:                 RCSTAbits.CREN = 1;
+[e = . . _RCSTAbits 0 4 -> -> 1 `i `uc ]
+"345
+[; ;Digitizer24bitsV0.c: 345:         }
+}
+[e $U 116  ]
+[e :U 117 ]
+[e [\ -> _ID `i , $ -> -> 53 `ui `i 118
+ , $ -> -> 48 `ui `i 119
+ , $ -> -> 49 `ui `i 120
+ , $ -> -> 50 `ui `i 121
+ , $ -> -> 51 `ui `i 122
+ , $ -> -> 52 `ui `i 123
+ , $ -> -> 54 `ui `i 124
+ , $ -> -> 55 `ui `i 128
+ , $ -> -> 56 `ui `i 129
+ , $ -> -> 57 `ui `i 130
+ 146 ]
+[e :U 116 ]
+"346
+[; ;Digitizer24bitsV0.c: 346:     }else if((PIR1bits.TMR1IF == 1) && (PIE1bits.TMR1IE == 1)){
+}
+[e $U 147  ]
+[e :U 115 ]
+[e $ ! && == -> . . _PIR1bits 0 0 `i -> 1 `i == -> . . _PIE1bits 0 0 `i -> 1 `i 148  ]
+{
+"348
+[; ;Digitizer24bitsV0.c: 348:         PORTAbits.RA2 = 1;
+[e = . . _PORTAbits 0 2 -> -> 1 `i `uc ]
+"350
+[; ;Digitizer24bitsV0.c: 350:         PIR1bits.TMR1IF = 0;
+[e = . . _PIR1bits 0 0 -> -> 0 `i `uc ]
+"351
+[; ;Digitizer24bitsV0.c: 351:         TMR1H = 0x10;
+[e = _TMR1H -> -> 16 `i `uc ]
+"352
+[; ;Digitizer24bitsV0.c: 352:         TMR1L = 0x06;
+[e = _TMR1L -> -> 6 `i `uc ]
+"353
+[; ;Digitizer24bitsV0.c: 353:         ContaSample++;
+[e ++ _ContaSample -> -> 1 `i `uc ]
+"357
+[; ;Digitizer24bitsV0.c: 357:         CleanHolding();
+[e ( _CleanHolding ..  ]
+"359
+[; ;Digitizer24bitsV0.c: 359:         PORTB = 0x38;
+[e = _PORTB -> -> 56 `i `uc ]
+"360
+[; ;Digitizer24bitsV0.c: 360:         PORTBbits.RB7 = 1;
+[e = . . _PORTBbits 0 7 -> -> 1 `i `uc ]
+"361
+[; ;Digitizer24bitsV0.c: 361:         _delay((unsigned long)((7)*(9830400UL/4000.0)));
+[e ( __delay (1 -> * -> -> 7 `i `d / -> -> 9830400 `ul `d .4000.0 `ul ]
+"362
+[; ;Digitizer24bitsV0.c: 362:         SumData_X = 0;
+[e = _SumData_X -> -> 0 `i `l ]
+"363
+[; ;Digitizer24bitsV0.c: 363:         ReadAD24(0,0x00);
+[e ( _ReadAD24 (2 , -> -> 0 `i `uc -> -> 0 `i `uc ]
+"364
+[; ;Digitizer24bitsV0.c: 364:         for(conta=0; conta<5; conta++){
+{
+[e = _conta -> -> 0 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 149  ]
+[e $U 150  ]
+[e :U 149 ]
+{
+"365
+[; ;Digitizer24bitsV0.c: 365:             Data_X = ReadAD24(1,0x00);
+[e = _Data_X ( _ReadAD24 (2 , -> -> 1 `i `uc -> -> 0 `i `uc ]
+"366
+[; ;Digitizer24bitsV0.c: 366:             SumData_X = SumData_X + Data_X;
+[e = _SumData_X + _SumData_X _Data_X ]
+"367
+[; ;Digitizer24bitsV0.c: 367:         }
+}
+[e ++ _conta -> -> 1 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 149  ]
+[e :U 150 ]
+}
+"368
+[; ;Digitizer24bitsV0.c: 368:         PORTBbits.RB7 = 0;
+[e = . . _PORTBbits 0 7 -> -> 0 `i `uc ]
+"370
+[; ;Digitizer24bitsV0.c: 370:         CleanHolding();
+[e ( _CleanHolding ..  ]
+"372
+[; ;Digitizer24bitsV0.c: 372:         PORTB = 0x18;
+[e = _PORTB -> -> 24 `i `uc ]
+"373
+[; ;Digitizer24bitsV0.c: 373:         _delay((unsigned long)((7)*(9830400UL/4000.0)));
+[e ( __delay (1 -> * -> -> 7 `i `d / -> -> 9830400 `ul `d .4000.0 `ul ]
+"374
+[; ;Digitizer24bitsV0.c: 374:         SumData_Y = 0;
+[e = _SumData_Y -> -> 0 `i `l ]
+"375
+[; ;Digitizer24bitsV0.c: 375:         ReadAD24(0,0x00);
+[e ( _ReadAD24 (2 , -> -> 0 `i `uc -> -> 0 `i `uc ]
+"376
+[; ;Digitizer24bitsV0.c: 376:         for(conta=0; conta<5; conta++){
+{
+[e = _conta -> -> 0 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 152  ]
+[e $U 153  ]
+[e :U 152 ]
+{
+"377
+[; ;Digitizer24bitsV0.c: 377:             Data_Y = ReadAD24(1,0x00);
+[e = _Data_Y ( _ReadAD24 (2 , -> -> 1 `i `uc -> -> 0 `i `uc ]
+"378
+[; ;Digitizer24bitsV0.c: 378:             SumData_Y = SumData_Y + Data_Y;
+[e = _SumData_Y + _SumData_Y _Data_Y ]
+"379
+[; ;Digitizer24bitsV0.c: 379:         }
+}
+[e ++ _conta -> -> 1 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 152  ]
+[e :U 153 ]
+}
+"381
+[; ;Digitizer24bitsV0.c: 381:         CleanHolding();
+[e ( _CleanHolding ..  ]
+"383
+[; ;Digitizer24bitsV0.c: 383:         PORTB = 0x28;
+[e = _PORTB -> -> 40 `i `uc ]
+"384
+[; ;Digitizer24bitsV0.c: 384:         _delay((unsigned long)((7)*(9830400UL/4000.0)));
+[e ( __delay (1 -> * -> -> 7 `i `d / -> -> 9830400 `ul `d .4000.0 `ul ]
+"385
+[; ;Digitizer24bitsV0.c: 385:         SumData_Z = 0;
+[e = _SumData_Z -> -> 0 `i `l ]
+"386
+[; ;Digitizer24bitsV0.c: 386:         ReadAD24(0,0x00);
+[e ( _ReadAD24 (2 , -> -> 0 `i `uc -> -> 0 `i `uc ]
+"387
+[; ;Digitizer24bitsV0.c: 387:         for(conta=0; conta<5; conta++){
+{
+[e = _conta -> -> 0 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 155  ]
+[e $U 156  ]
+[e :U 155 ]
+{
+"388
+[; ;Digitizer24bitsV0.c: 388:             Data_Z = ReadAD24(1,0x00);
+[e = _Data_Z ( _ReadAD24 (2 , -> -> 1 `i `uc -> -> 0 `i `uc ]
+"389
+[; ;Digitizer24bitsV0.c: 389:             SumData_Z = SumData_Z + Data_Z;
+[e = _SumData_Z + _SumData_Z _Data_Z ]
+"390
+[; ;Digitizer24bitsV0.c: 390:         }
+}
+[e ++ _conta -> -> 1 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 155  ]
+[e :U 156 ]
+}
+"392
+[; ;Digitizer24bitsV0.c: 392:         CleanHolding();
+[e ( _CleanHolding ..  ]
+"394
+[; ;Digitizer24bitsV0.c: 394:         PORTB = 0x08;
+[e = _PORTB -> -> 8 `i `uc ]
+"395
+[; ;Digitizer24bitsV0.c: 395:         _delay((unsigned long)((7)*(9830400UL/4000.0)));
+[e ( __delay (1 -> * -> -> 7 `i `d / -> -> 9830400 `ul `d .4000.0 `ul ]
+"396
+[; ;Digitizer24bitsV0.c: 396:         SumData_TC = 0;
+[e = _SumData_TC -> -> 0 `i `l ]
+"397
+[; ;Digitizer24bitsV0.c: 397:         ReadAD24(0,0x00);
+[e ( _ReadAD24 (2 , -> -> 0 `i `uc -> -> 0 `i `uc ]
+"398
+[; ;Digitizer24bitsV0.c: 398:         for(conta=0; conta<5; conta++){
+{
+[e = _conta -> -> 0 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 158  ]
+[e $U 159  ]
+[e :U 158 ]
+{
+"399
+[; ;Digitizer24bitsV0.c: 399:             Data_TC = ReadAD24(1,0x00);
+[e = _Data_TC ( _ReadAD24 (2 , -> -> 1 `i `uc -> -> 0 `i `uc ]
+"400
+[; ;Digitizer24bitsV0.c: 400:             SumData_TC = SumData_TC + Data_TC;
+[e = _SumData_TC + _SumData_TC _Data_TC ]
+"401
+[; ;Digitizer24bitsV0.c: 401:         }
+}
+[e ++ _conta -> -> 1 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 158  ]
+[e :U 159 ]
+}
+"403
+[; ;Digitizer24bitsV0.c: 403:         CleanHolding();
+[e ( _CleanHolding ..  ]
+"405
+[; ;Digitizer24bitsV0.c: 405:         PORTB = 0x04;
+[e = _PORTB -> -> 4 `i `uc ]
+"406
+[; ;Digitizer24bitsV0.c: 406:         _delay((unsigned long)((7)*(9830400UL/4000.0)));
+[e ( __delay (1 -> * -> -> 7 `i `d / -> -> 9830400 `ul `d .4000.0 `ul ]
+"407
+[; ;Digitizer24bitsV0.c: 407:         SumData_TS = 0;
+[e = _SumData_TS -> -> 0 `i `l ]
+"408
+[; ;Digitizer24bitsV0.c: 408:         ReadAD24(0,0x00);
+[e ( _ReadAD24 (2 , -> -> 0 `i `uc -> -> 0 `i `uc ]
+"409
+[; ;Digitizer24bitsV0.c: 409:         for(conta=0; conta<5; conta++){
+{
+[e = _conta -> -> 0 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 161  ]
+[e $U 162  ]
+[e :U 161 ]
+{
+"410
+[; ;Digitizer24bitsV0.c: 410:             Data_TS = ReadAD24(1,0x00);
+[e = _Data_TS ( _ReadAD24 (2 , -> -> 1 `i `uc -> -> 0 `i `uc ]
+"411
+[; ;Digitizer24bitsV0.c: 411:             SumData_TS = SumData_TS + Data_TS;
+[e = _SumData_TS + _SumData_TS _Data_TS ]
+"412
+[; ;Digitizer24bitsV0.c: 412:         }
+}
+[e ++ _conta -> -> 1 `i `uc ]
+[e $ < -> _conta `i -> 5 `i 161  ]
+[e :U 162 ]
+}
+"415
+[; ;Digitizer24bitsV0.c: 415:         Data_X = SumData_X/5;
+[e = _Data_X / _SumData_X -> -> 5 `i `l ]
+"416
+[; ;Digitizer24bitsV0.c: 416:         Data_Y = SumData_Y/5;
+[e = _Data_Y / _SumData_Y -> -> 5 `i `l ]
+"417
+[; ;Digitizer24bitsV0.c: 417:         Data_Z = SumData_Z/5;
+[e = _Data_Z / _SumData_Z -> -> 5 `i `l ]
+"418
+[; ;Digitizer24bitsV0.c: 418:         Data_TC = SumData_TC/5;
+[e = _Data_TC / _SumData_TC -> -> 5 `i `l ]
+"419
+[; ;Digitizer24bitsV0.c: 419:         Data_TS = SumData_TS/5;
+[e = _Data_TS / _SumData_TS -> -> 5 `i `l ]
+"422
+[; ;Digitizer24bitsV0.c: 422:         print_string("JROADQ");
+[e ( _print_string (1 :s 8C ]
+"423
+[; ;Digitizer24bitsV0.c: 423:         WriteByte_USART(ContaSample);
+[e ( _WriteByte_USART (1 _ContaSample ]
+"424
+[; ;Digitizer24bitsV0.c: 424:         print_value(Data_X);
+[e ( _print_value (1 _Data_X ]
+"425
+[; ;Digitizer24bitsV0.c: 425:         print_value(Data_Y);
+[e ( _print_value (1 _Data_Y ]
+"426
+[; ;Digitizer24bitsV0.c: 426:         print_value(Data_Z);
+[e ( _print_value (1 _Data_Z ]
+"427
+[; ;Digitizer24bitsV0.c: 427:         print_value(Data_TC);
+[e ( _print_value (1 _Data_TC ]
+"428
+[; ;Digitizer24bitsV0.c: 428:         print_value(Data_TS);
+[e ( _print_value (1 _Data_TS ]
+"429
+[; ;Digitizer24bitsV0.c: 429:         print_string("\n\r");
+[e ( _print_string (1 :s 9C ]
+"431
+[; ;Digitizer24bitsV0.c: 431:         PORTAbits.RA2 = 0;
+[e = . . _PORTAbits 0 2 -> -> 0 `i `uc ]
+"433
+[; ;Digitizer24bitsV0.c: 433:         if(ContaSample == 4){
+[e $ ! == -> _ContaSample `i -> 4 `i 164  ]
+{
+"434
+[; ;Digitizer24bitsV0.c: 434:             PIE1bits.TMR1IE = 0;
+[e = . . _PIE1bits 0 0 -> -> 0 `i `uc ]
+"435
+[; ;Digitizer24bitsV0.c: 435:             if(ControlSample == 1){
+[e $ ! == -> _ControlSample `i -> 1 `i 165  ]
+{
+"436
+[; ;Digitizer24bitsV0.c: 436:                 INTCONbits.INTF = 0;
+[e = . . _INTCONbits 0 1 -> -> 0 `i `uc ]
+"437
+[; ;Digitizer24bitsV0.c: 437:                 INTCONbits.INTE = 1;
+[e = . . _INTCONbits 0 4 -> -> 1 `i `uc ]
+"438
+[; ;Digitizer24bitsV0.c: 438:             }else{
+}
+[e $U 166  ]
+[e :U 165 ]
+{
+"439
+[; ;Digitizer24bitsV0.c: 439:                 ReadAD24(0,0xFF);
+[e ( _ReadAD24 (2 , -> -> 0 `i `uc -> -> 255 `i `uc ]
+"440
+[; ;Digitizer24bitsV0.c: 440:             }
+}
+[e :U 166 ]
+"441
+[; ;Digitizer24bitsV0.c: 441:         }
+}
+[e :U 164 ]
+"443
+[; ;Digitizer24bitsV0.c: 443:     }
+}
+[e :U 148 ]
+[e :U 147 ]
+[e :U 114 ]
+"445
+[; ;Digitizer24bitsV0.c: 445:     return;
+[e $UE 87  ]
+"446
+[; ;Digitizer24bitsV0.c: 446: }
+[e :UE 87 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"449
+[; ;Digitizer24bitsV0.c: 449: void main(void) {
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"453
+[; ;Digitizer24bitsV0.c: 453:     ADCON1 = 0x06;
+[e = _ADCON1 -> -> 6 `i `uc ]
+"454
+[; ;Digitizer24bitsV0.c: 454:     PORTA = 0;
+[e = _PORTA -> -> 0 `i `uc ]
+"455
+[; ;Digitizer24bitsV0.c: 455:     PORTAbits.RA1 = 1;
+[e = . . _PORTAbits 0 1 -> -> 1 `i `uc ]
+"456
+[; ;Digitizer24bitsV0.c: 456:     PORTB = 0;
+[e = _PORTB -> -> 0 `i `uc ]
+"457
+[; ;Digitizer24bitsV0.c: 457:     PORTC = 0;
+[e = _PORTC -> -> 0 `i `uc ]
+"458
+[; ;Digitizer24bitsV0.c: 458:     TRISA = 0x01;
+[e = _TRISA -> -> 1 `i `uc ]
+"459
+[; ;Digitizer24bitsV0.c: 459:     TRISB = 0x01;
+[e = _TRISB -> -> 1 `i `uc ]
+"460
+[; ;Digitizer24bitsV0.c: 460:     TRISC = 0x00;
+[e = _TRISC -> -> 0 `i `uc ]
+"461
+[; ;Digitizer24bitsV0.c: 461:     OPTION_REGbits.nRBPU = 0;
+[e = . . _OPTION_REGbits 0 5 -> -> 0 `i `uc ]
+"462
+[; ;Digitizer24bitsV0.c: 462:     _delay((unsigned long)((100)*(9830400UL/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 9830400 `ul `d .4000.0 `ul ]
+"465
+[; ;Digitizer24bitsV0.c: 465:     ConfigPort_SPI();
+[e ( _ConfigPort_SPI ..  ]
+"466
+[; ;Digitizer24bitsV0.c: 466:     OpenPort_SPI();
+[e ( _OpenPort_SPI ..  ]
+"469
+[; ;Digitizer24bitsV0.c: 469:     ConfigPort_USART();
+[e ( _ConfigPort_USART ..  ]
+"470
+[; ;Digitizer24bitsV0.c: 470:     OpenPort_USART();
+[e ( _OpenPort_USART ..  ]
+"473
+[; ;Digitizer24bitsV0.c: 473:     INTCONbits.PEIE = 1;
+[e = . . _INTCONbits 0 6 -> -> 1 `i `uc ]
+"474
+[; ;Digitizer24bitsV0.c: 474:     INTCONbits.GIE = 1;
+[e = . . _INTCONbits 0 7 -> -> 1 `i `uc ]
+"477
+[; ;Digitizer24bitsV0.c: 477:     PORTAbits.RA2 = 0;
+[e = . . _PORTAbits 0 2 -> -> 0 `i `uc ]
+"478
+[; ;Digitizer24bitsV0.c: 478:     PORTBbits.RB7 = 0;
+[e = . . _PORTBbits 0 7 -> -> 0 `i `uc ]
+"479
+[; ;Digitizer24bitsV0.c: 479:     PORTBbits.RB6 = 0;
+[e = . . _PORTBbits 0 6 -> -> 0 `i `uc ]
+"481
+[; ;Digitizer24bitsV0.c: 481:     while(1);
+[e :U 169 ]
+[e :U 168 ]
+[e $U 169  ]
+[e :U 170 ]
+"482
+[; ;Digitizer24bitsV0.c: 482:     ClosePort_USART();
+[e ( _ClosePort_USART ..  ]
+"483
+[; ;Digitizer24bitsV0.c: 483:     ClosePort_SPI();
+[e ( _ClosePort_SPI ..  ]
+"484
+[; ;Digitizer24bitsV0.c: 484:     return;
+[e $UE 167  ]
+"485
+[; ;Digitizer24bitsV0.c: 485: }
+[e :UE 167 ]
+}
+[a 3C 74 82 79 65 68 81 0 ]
+[a 6C 74 82 79 65 68 81 0 ]
+[a 8C 74 82 79 65 68 81 0 ]
+[a 1C 71 45 74 82 79 68 65 84 69 0 ]
+[a 5C 71 45 74 82 79 68 65 84 69 88 88 88 88 88 88 88 88 88 88 88 88 10 13 0 ]
+[a 2C 10 13 0 ]
+[a 4C 10 13 0 ]
+[a 7C 10 13 0 ]
+[a 9C 10 13 0 ]

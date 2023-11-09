@@ -1,0 +1,41 @@
+### HEXMate logfile and output summary ###
+
+### Command-line arguments ###
+ C:\Users\ricar\AppData\Local\Temp\xcAsc5o.\driver_tmp_3.o
+ -Odist/default/production\Test2450.X.production.hex
+ -logfile=dist/default/production\Test2450.X.production.hxl
+ -addressing=1
+ -break=300000
+
+### Memory Usage ###
+ Input file ranges:
+  0h - 3h		(C:\Users\ricar\AppData\Local\Temp\xcAsc5o.\driver_tmp_3.o)
+  3DD6h - 3E3Fh		(C:\Users\ricar\AppData\Local\Temp\xcAsc5o.\driver_tmp_3.o)
+  200000h - 200007h		(C:\Users\ricar\AppData\Local\Temp\xcAsc5o.\driver_tmp_3.o)
+  300000h - 30000Dh		(C:\Users\ricar\AppData\Local\Temp\xcAsc5o.\driver_tmp_3.o)
+ Unused ranges:
+  4h - 3DD5h
+  3E40h - 1FFFFFh
+  200008h - 2FFFFFh
+
+### Hex Memory Map ###
+ Legend:
+  -- = Unused memory
+  H1 = Input file             (C:\Users\ricar\AppData\Local\Temp\xcAsc5o.\driver_tmp_3.o)
+----------------------------------------------------------
+         | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+----------------------------------------------------------
+00000000 | H1 H1 H1 H1 -- -- -- -- -- -- -- -- -- -- -- --
+----------------------------------------------------------
+00003DD0 | -- -- -- -- -- -- H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00003DE0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00003DF0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00003E00 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00003E10 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00003E20 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00003E30 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+----------------------------------------------------------
+00200000 | H1 H1 H1 H1 H1 H1 H1 H1 -- -- -- -- -- -- -- --
+----------------------------------------------------------
+00300000 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 -- --
+00300010 | --
